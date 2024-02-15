@@ -14,4 +14,8 @@ function divide(a, b) {
     return a / b
 }
 
-module.export (sum, divide, minus, multiplication)
+function square(a) {
+    return a ^ 2
+}
+
+module.exports = {sum, multiplication, minus, divide, square}
